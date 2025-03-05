@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.footer {
+    position: relative;
+    top: 20.7rem;
+    
+    height: 13rem;
+    background-color: var(--cor-destaque-escuro);
+}
+
+/* .logos_container {
+    position: relative; 
+    bottom: -2rem;
+
+} */
+
+.logo_footer {
+    padding-top: 1rem;
+}
+
+.logo_apps {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    position: relative;
+    bottom: 5rem;
+
+}
+nav {
+    bottom: 2rem;
+}

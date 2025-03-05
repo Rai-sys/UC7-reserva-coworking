@@ -1,12 +1,12 @@
 import React from "react";
 import style from "./Header.module.css";
-import icon from "../../assets/icon/icon.png"
+import icon from "../../assets/icon/logo.png";
 
 function Header() {
     return (
         <header className={style.header}>
             <div class="logo">
-                <img src={icon} alt="algo"/>
+                <img src={icon} alt="" width={100}/>
             </div>
 
                 <nav>
