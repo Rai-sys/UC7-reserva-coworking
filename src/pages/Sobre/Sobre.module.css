@@ -1,0 +1,34 @@
+:root {
+    --cor-texto: #4d4d4df5;
+    --cor-fundo-header: #FFFF;
+    --cor-botao-login: #2A7577;
+    --cor-titulo: #269A9E;
+    --cor-destaque: #FF6584;
+    --cor-destaque-escuro: #3F3D56;
+
+
+    --font-texto-botao: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    --font-texto: Trebuchet MS, sans-serif
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.grid_fotos {
+    display: flex;
+    align-items: center;
+}
+
+.img_h {
+    display: flex;
+    align-items: center;
+}
+
+/* .quemSomos p {
+    background-color: white;
+    color: var(--cor-texto);
+    word-break: normal;
+} */

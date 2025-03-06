@@ -22,9 +22,8 @@
     align-items: center; /* Alinha verticalmente */
     background-color: var(--cor-fundo-header);
     color: var(--cor-texto);
-    position: fixed;
+    position: absolute; /* fixed */
     top: 0; 
-    left: 0; 
     width: 100%; 
 }
 
@@ -35,14 +34,15 @@ img {
 
 nav ul {
     display: flex;
-    gap: 100px;
+    gap: 150px;
+
     list-style: none;
     padding-left: 37em;
     
 }
 
 nav li {
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     font-family: var(--font-texto-botao);
     font-weight: 500;
 }
@@ -50,6 +50,8 @@ nav li {
 .button_login {
     display: flex;
     margin-right: 10rem;
+    position: relative;
+    right: 6rem;
     width: 7rem;
     height: 2.813rem;
     background-color: var(--cor-destaque);
@@ -61,6 +63,6 @@ h3 {
     padding-left: 1.80rem;
     top: 0.27rem;
     color: var(--cor-fundo-header);
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     font-weight: 500;
 }

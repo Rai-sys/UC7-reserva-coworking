@@ -5,16 +5,17 @@ import { logo, logoFacebook, logoInstagram, logoTwitter } from "../../assets/ico
 function Footer() {
     return (
         <footer className={style.footer}>
-                <img className={style.logo_footer} src={logo} alt="" />
-                <div className={style.logo_apps}>
-                    <img className={style.logo_fb} src={logoFacebook} alt="" />
-                    <img className={style.logo_tt} src={logoTwitter} alt="" />
-                    <img className={style.logo_ig} src={logoInstagram} alt="" />
-                </div>
-            
+            <img className={style.logo_footer} src={logo} alt="" />
+            <div className={style.logo_apps} >
+                <img className={style.logo_fb} src={logoFacebook} alt="" width={42} />
+                <img className={style.logo_tt} src={logoTwitter} alt="" width={42} />
+                <img className={style.logo_ig} src={logoInstagram} alt="" width={42} />
+            </div>
 
-            <div>
-                <nav>
+
+
+            <div >
+                <nav className={style.texto_container}>
                     <ul>
                         <li> Início </li>
                         <li> Sobre </li>
@@ -23,7 +24,7 @@ function Footer() {
                     </ul>
                 </nav>
             </div>
-
+            
             <p> Todos os direitos reservados a COWORKING SPACE © 2025 </p>
         </footer>
     )
